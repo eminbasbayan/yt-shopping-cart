@@ -53,7 +53,7 @@ class UI {
             let inCart = cart.find(item => item.id === id);
             if (inCart) {
                 button.setAttribute("disabled", "disabled");
-                button.opacity = ".3";
+                button.style.opacity = ".3";
             } else {
                 button.addEventListener("click", event => {
                     event.target.disabled = true;
