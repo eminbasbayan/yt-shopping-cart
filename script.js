@@ -30,7 +30,7 @@ class UI {
             <div class="col-lg-4 col-md-6">
                 <div class="product">
                     <div class="product-image">
-                        <img src="${item.image}" alt="product">
+                        <img src="${item.image}" alt="product" class="img-fluid" />
                     </div>
                     <div class="product-hover">
                         <span class="product-title">${item.title}</span>
@@ -93,7 +93,7 @@ class UI {
         li.innerHTML = `
             <div class="cart-left">
                 <div class="cart-left-image">
-                    <img src="${item.image}" alt="product" />
+                    <img src="${item.image}" alt="product" class="img-fluid" />
                 </div>
                 <div class="cart-left-info">
                     <a class="cart-left-info-title" href="#">${item.title}</a>
